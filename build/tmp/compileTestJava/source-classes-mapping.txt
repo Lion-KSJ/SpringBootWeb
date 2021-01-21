@@ -1,0 +1,6 @@
+com/unipoint/webapp/springboot/HelloControllerTest.java
+ com.unipoint.webapp.springboot.HelloControllerTest
+com/unipoint/webapp/springboot/domain/posts/PostsRepositoryTest.java
+ com.unipoint.webapp.springboot.domain.posts.PostsRepositoryTest
+com/unipoint/webapp/springboot/web/dto/HelloResponseDtoTest.java
+ com.unipoint.webapp.springboot.web.dto.HelloResponseDtoTest
