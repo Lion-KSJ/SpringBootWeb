@@ -4,6 +4,7 @@ import com.unipoint.webapp.springboot.domain.posts.Posts;
 import com.unipoint.webapp.springboot.domain.posts.PostsRepository;
 import com.unipoint.webapp.springboot.web.dto.PostsResponseDto;
 import com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto;
+import com.unipoint.webapp.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -21,7 +22,7 @@ public class PostsService
     }
 
     @Transactional
-    public Long update(Long id, PostsSaveRequestDto requestDto)
+    public Long update(Long id, PostsUpdateRequestDto requestDto)
     {
         Posts posts = postsRepository.findById(id).orElseThrow(()
                     -> new IllegalArgumentException("해당 사용자가 없습니다. id = " + id));
