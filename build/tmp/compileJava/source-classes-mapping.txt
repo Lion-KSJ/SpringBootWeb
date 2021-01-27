@@ -23,3 +23,5 @@ com/unipoint/webapp/springboot/Application.java
 com/unipoint/webapp/springboot/web/dto/PostsSaveRequestDto.java
  com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto
  com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/unipoint/webapp/springboot/web/IndexController.java
+ com.unipoint.webapp.springboot.web.IndexController
