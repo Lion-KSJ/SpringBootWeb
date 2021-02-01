@@ -19,11 +19,11 @@ com/unipoint/webapp/springboot/domain/posts/Posts.java
  com.unipoint.webapp.springboot.domain.posts.Posts$PostsBuilder
 com/unipoint/webapp/springboot/domain/posts/PostsRepository.java
  com.unipoint.webapp.springboot.domain.posts.PostsRepository
-com/unipoint/webapp/springboot/web/IndexController.java
- com.unipoint.webapp.springboot.web.IndexController
-com/unipoint/webapp/springboot/web/PostsApiController.java
- com.unipoint.webapp.springboot.web.PostsApiController
 com/unipoint/webapp/springboot/web/dto/PostListResponseDto.java
  com.unipoint.webapp.springboot.web.dto.PostListResponseDto
+com/unipoint/webapp/springboot/web/IndexController.java
+ com.unipoint.webapp.springboot.web.IndexController
 com/unipoint/webapp/springboot/service/PostsService.java
  com.unipoint.webapp.springboot.service.PostsService
+com/unipoint/webapp/springboot/web/PostsApiController.java
+ com.unipoint.webapp.springboot.web.PostsApiController

@@ -16,9 +16,9 @@ public class PostsApiController
     @PostMapping("/api/v1/posts")
     public Long save(@RequestBody PostsSaveRequestDto requestDto)
     {
-        System.out.println("update Title ->" + requestDto.getTitle());
-        System.out.println("update Content ->" + requestDto.getContent());
-        System.out.println("update Author ->" + requestDto.getAuthor());
+        System.out.println("save Title -> " + requestDto.getTitle());
+        System.out.println("save Content -> " + requestDto.getContent());
+        System.out.println("save Author -> " + requestDto.getAuthor());
 
         return postsService.save(requestDto);
     }
@@ -26,20 +26,26 @@ public class PostsApiController
     @PutMapping("/api/v1/posts/{id}")
     public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto)
     {
-        System.out.println("update ID ->" + id);
-        System.out.println("update Title ->" + requestDto.getTitle());
-        System.out.println("update Content ->" + requestDto.getContent());
+        System.out.println("update ID -> " + id);
+        System.out.println("update Title -> " + requestDto.getTitle());
+        System.out.println("update Content -> " + requestDto.getContent());
 
         return postsService.update(id, requestDto);
     }
 
-    @GetMapping("/api/vi/posts/{id}")
+    @DeleteMapping("/api/v1/posts/{id}")
+    public Long delete(@PathVariable Long id)
+    {
+        System.out.println("삭제");
+        postsService.delete(id);
+        return id;
+    }
+
+    @GetMapping("/api/v1/posts/{id}")
     public PostsResponseDto findById(@PathVariable Long id)
     {
         System.out.println("findById ID ->" + id);
         return postsService.findById(id);
     }
-
-
 
 }
