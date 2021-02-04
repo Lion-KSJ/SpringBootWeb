@@ -1,29 +1,45 @@
 com/unipoint/webapp/springboot/web/HelloController.java
  com.unipoint.webapp.springboot.web.HelloController
-com/unipoint/webapp/springboot/web/dto/HelloResponseDto.java
- com.unipoint.webapp.springboot.web.dto.HelloResponseDto
-com/unipoint/webapp/springboot/Application.java
- com.unipoint.webapp.springboot.Application
-com/unipoint/webapp/springboot/web/dto/PostsUpdateRequestDto.java
- com.unipoint.webapp.springboot.web.dto.PostsUpdateRequestDto
- com.unipoint.webapp.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
 com/unipoint/webapp/springboot/web/dto/PostsResponseDto.java
  com.unipoint.webapp.springboot.web.dto.PostsResponseDto
 com/unipoint/webapp/springboot/domain/BaseTimeEntity.java
  com.unipoint.webapp.springboot.domain.BaseTimeEntity
-com/unipoint/webapp/springboot/web/dto/PostsSaveRequestDto.java
- com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto
- com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/unipoint/webapp/springboot/web/dto/PostListResponseDto.java
+ com.unipoint.webapp.springboot.web.dto.PostListResponseDto
+com/unipoint/webapp/springboot/domain/posts/PostsRepository.java
+ com.unipoint.webapp.springboot.domain.posts.PostsRepository
 com/unipoint/webapp/springboot/domain/posts/Posts.java
  com.unipoint.webapp.springboot.domain.posts.Posts
  com.unipoint.webapp.springboot.domain.posts.Posts$PostsBuilder
-com/unipoint/webapp/springboot/domain/posts/PostsRepository.java
- com.unipoint.webapp.springboot.domain.posts.PostsRepository
-com/unipoint/webapp/springboot/web/dto/PostListResponseDto.java
- com.unipoint.webapp.springboot.web.dto.PostListResponseDto
-com/unipoint/webapp/springboot/web/IndexController.java
- com.unipoint.webapp.springboot.web.IndexController
-com/unipoint/webapp/springboot/service/PostsService.java
- com.unipoint.webapp.springboot.service.PostsService
+com/unipoint/webapp/springboot/Application.java
+ com.unipoint.webapp.springboot.Application
+com/unipoint/webapp/springboot/config/auth/SecurityConfig.java
+ com.unipoint.webapp.springboot.config.auth.SecurityConfig
+com/unipoint/webapp/springboot/domain/user/Role.java
+ com.unipoint.webapp.springboot.domain.user.Role
+com/unipoint/webapp/springboot/config/auth/CustomOAuth2UserService.java
+ com.unipoint.webapp.springboot.config.auth.CustomOAuth2UserService
+com/unipoint/webapp/springboot/domain/user/User.java
+ com.unipoint.webapp.springboot.domain.user.User
+ com.unipoint.webapp.springboot.domain.user.User$UserBuilder
+com/unipoint/webapp/springboot/web/dto/PostsUpdateRequestDto.java
+ com.unipoint.webapp.springboot.web.dto.PostsUpdateRequestDto
+ com.unipoint.webapp.springboot.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
+com/unipoint/webapp/springboot/config/auth/dto/OAuthAttributes.java
+ com.unipoint.webapp.springboot.config.auth.dto.OAuthAttributes
+ com.unipoint.webapp.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/unipoint/webapp/springboot/domain/user/UserRepository.java
+ com.unipoint.webapp.springboot.domain.user.UserRepository
 com/unipoint/webapp/springboot/web/PostsApiController.java
  com.unipoint.webapp.springboot.web.PostsApiController
+com/unipoint/webapp/springboot/config/auth/dto/SessionUser.java
+ com.unipoint.webapp.springboot.config.auth.dto.SessionUser
+com/unipoint/webapp/springboot/service/PostsService.java
+ com.unipoint.webapp.springboot.service.PostsService
+com/unipoint/webapp/springboot/web/dto/PostsSaveRequestDto.java
+ com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto
+ com.unipoint.webapp.springboot.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/unipoint/webapp/springboot/web/dto/HelloResponseDto.java
+ com.unipoint.webapp.springboot.web.dto.HelloResponseDto
+com/unipoint/webapp/springboot/web/IndexController.java
+ com.unipoint.webapp.springboot.web.IndexController
