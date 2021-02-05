@@ -1,10 +1,10 @@
 com/unipoint/webapp/springboot/HelloControllerTest.java
  com.unipoint.webapp.springboot.HelloControllerTest
-com/unipoint/webapp/springboot/web/dto/HelloResponseDtoTest.java
- com.unipoint.webapp.springboot.web.dto.HelloResponseDtoTest
+com/unipoint/webapp/springboot/web/IndexControllerTest.java
+ com.unipoint.webapp.springboot.web.IndexControllerTest
 com/unipoint/webapp/springboot/web/PostsApiControllerTest.java
  com.unipoint.webapp.springboot.web.PostsApiControllerTest
 com/unipoint/webapp/springboot/domain/posts/PostsRepositoryTest.java
  com.unipoint.webapp.springboot.domain.posts.PostsRepositoryTest
-com/unipoint/webapp/springboot/web/IndexControllerTest.java
- com.unipoint.webapp.springboot.web.IndexControllerTest
+com/unipoint/webapp/springboot/web/dto/HelloResponseDtoTest.java
+ com.unipoint.webapp.springboot.web.dto.HelloResponseDtoTest
